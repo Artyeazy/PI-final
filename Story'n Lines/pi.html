@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="icon" type="image/png" href="./imgs/history.png">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+  <title>Story'n Lines</title>
+</head>
+
+<body>
+  <div class="modal">
+    <div class="container">
+      <div class="close"><img src="./imgs/remove.png"></div>
+      <div class="content">
+        Leia +
+      </div>
+    </div>
+  </div>
+  <div class="aba">
+    <input type="button" onclick="nova()"; value="Fórum"/>
+  </div>
+  <div class="timeline-container" id="timeline-1">
+    <div class="timeline-header">
+      <h2 class="timeline-header__title">Story'n Lines</h2>
+      <h3 class="timeline-header__subtitle">A história como você nunca viu.</h3>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item" data-text="o macaco prego é um animal bem legal">
+        <span class="leia-mais1">
+          Leia +
+          <template>
+            <div class="teste">
+              <p>Um breve resumo: </p>
+              <iframe src="https://www.youtube.com/embed/Bl8Q7Lt56y0" allowfullscreen="true" width="500" height="344"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                frameborder="0"></iframe>
+            </div>
+          </template>
+        </span>
+        <div class="timeline__content"><img class="timeline__img" src="./imgs/1356.jpg" />
+          <h2 class="timeline__content-title">O início de tudo.</h2>
+          <p class="timeline__content-desc">O Big Bang é uma das teorias mais aceitas pela comunidade científica sobre a
+            origem do nosso universo. Segundo essa teoria, nosso Universo atual teve origem em uma grande explosão por volta de
+            14 bilhões de anos atrás. Tudo se deu através de um ponto material muito pequeno, quente e extremamente
+            denso. Essa grande explosão deu origem ao espaço-tempo.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="Leia +">
+        <span class="leia-mais2">
+          Leia +
+          <template>
+            <div class="teste">
+              <p>Um breve resumo: </p>
+              <iframe width="500" height="344" src="https://www.youtube.com/embed/IAzZ9HXA2xw" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </template>
+        </span>
+        <div class="timeline__content"><img class="timeline__img" src="./imgs/pre.jpg" />
+          <h2 class="timeline__content-title">Pré-História</h2>
+          <p class="timeline__content-desc">A Pré-História é o período que acompanha a evolução da Terra, do homem e
+            todos os seres vivos. O estudo da Pré-História permite-nos acompanhar o desenvolvimento e a evolução dos
+            primeiros hominídeos até o surgimento de ferramentas que possibilitaram o aperfeiçoamento no estilo de vida
+            dos seres humanos.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="Leia +">
+        <span class="leia-mais1">
+          Leia +
+          <template>
+            <p>Um breve resumo: </p>
+            <iframe width="500" height="344" src="https://www.youtube.com/embed/qtCgTTxU4pI" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </template>
+        </span>
+        <div class="timeline__content"><img class="timeline__img" src="./imgs/partenon.jpg" />
+          <h2 class="timeline__content-title">Idade Antiga</h2>
+          <p class="timeline__content-desc">A Idade Antiga é um período da história iniciado quando o ser humano
+            desenvolveu a primeira forma de escrita na Suméria, por volta de 3500 a.C. Esse tempo faz parte de uma
+            periodização, desenvolvida por historiadores modernos, que estabeleceu o seu fim em 476 d.C., quando o
+            Império Romano do Ocidente teve fim.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="Leia +">
+        <span class="leia-mais2">
+          Leia +
+          <template>
+            <p>Um breve resumo: </p>
+            <iframe width="500" height="344" src="https://www.youtube.com/embed/ieif7sNc2_I" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </template>
+        </span>
+        <div class="timeline__content"><img class="timeline__img" src="./imgs/feudo.jpg" />
+          <h2 class="timeline__content-title">Idade Média</h2>
+          <p class="timeline__content-desc">A idade Média começou com a queda do Império Romano do Ocidente, em 476
+            d.C., e se encerrou com a tomada da capital do Império Bizantino, Constantinopla, pelos turcos-otomanos, em
+            1453. Esse período costuma ser dividido em dois: Alta e Baixa Idade Média.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="Leia +">
+        <span class="leia-mais1">
+          Leia +
+          <template>
+            <p>Um breve resumo: </p>
+            <iframe width="500" height="344" src="https://www.youtube.com/embed/bdo11n5Du34" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </template>
+        </span>
+        <div class="timeline__content"><img class="timeline__img" src="./imgs/naveg.jpg" />
+          <h2 class="timeline__content-title">Idade Moderna</h2>
+          <p class="timeline__content-desc">A Idade Moderna, ao contrário do que se pode imaginar, não se refere ao
+            momento histórico em que vivemos atualmente, mas é um período da história ocidental compreendido entre os
+            anos de 1453, com a tomada de Constantinopla pelo Império Otomano, e 1789, início da Revolução Francesa</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="Leia +">
+        <span class="leia-mais2">
+          Leia +
+          <template>
+            <p>Um breve resumo: </p>
+            <iframe width="500" height="344" src="https://www.youtube.com/embed/rmwH5MJ4hPM" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </template>
+        </span>
+        <div class="timeline__content"><img class="timeline__img" src="./imgs/ny.jpg" />
+          <h2 class="timeline__content-title">Idade Contemporânea</h2>
+          <p class="timeline__content-desc">Idadee Contemporânea é uma divisão cronológica da História, compreendendo o
+            período entre o início da Revolução Francesa, com a queda da Bastilha em 14 julho de 1789, até os dias
+            atuais. A Idade Contemporânea representa principalmente o período de consolidação do capitalismo como o modo
+            de produção e sua expansão por todo o globo terrestre entre os séculos XVIII e XXI.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    (function ($) {
+      $.fn.timeline = function () {
+        var selectors = {
+          id: $(this),
+          item: $(this).find(".timeline-item"),
+          activeClass: "timeline-item--active",
+          img: ".timeline__img"
+        };
+        selectors.item.eq(0).addClass(selectors.activeClass);
+        selectors.id.css(
+          "background-image",
+          "url(" +
+          selectors.item
+            .first()
+            .find(selectors.img)
+            .attr("src") +
+          ")"
+        );
+        var itemLength = selectors.item.length;
+        $(window).scroll(function () {
+          var max, min;
+          var pos = $(this).scrollTop();
+          selectors.item.each(function (i) {
+            min = $(this).offset().top;
+            max = $(this).height() + $(this).offset().top;
+            var that = $(this);
+            if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+              selectors.item.removeClass(selectors.activeClass);
+              selectors.id.css(
+                "background-image",
+                "url(" +
+                selectors.item
+                  .last()
+                  .find(selectors.img)
+                  .attr("src") +
+                ")"
+              );
+              selectors.item.last().addClass(selectors.activeClass);
+            } else if (pos <= max - 40 && pos >= min) {
+              selectors.id.css(
+                "background-image",
+                "url(" +
+                $(this)
+                  .find(selectors.img)
+                  .attr("src") +
+                ")"
+              );
+              selectors.item.removeClass(selectors.activeClass);
+              $(this).addClass(selectors.activeClass);
+            }
+          });
+        });
+      };
+    })(jQuery);
+
+    $("#timeline-1").timeline();
+
+    function nova() {
+      location.href = "http://localhost:8080/";
+    }
+
+    const modal = document.querySelector('.modal');
+    const modalClose = modal.querySelector('.close');
+    const modalContent = modal.querySelector('.content');
+    const btsLeiaMais = document.querySelectorAll('.leia-mais1');
+    const btsLeiaMais2 = document.querySelectorAll('.leia-mais2');
+
+    modalClose.addEventListener('click', ev => modal.classList.remove("open"));
+
+    btsLeiaMais.forEach(bt => {
+      bt.addEventListener('click', ev => {
+        const template = bt.querySelector('template');
+        modalContent.innerHTML = "";
+        modalContent.appendChild(template.content.cloneNode(true));
+        modal.classList.add("open");
+      });;
+    })
+
+    btsLeiaMais2.forEach(bt => {
+      bt.addEventListener('click', ev => {
+        const template = bt.querySelector('template');
+        modalContent.innerHTML = "";
+        modalContent.appendChild(template.content.cloneNode(true));
+        modal.classList.add("open");
+      });;
+    })
+
+    // menu.forEach(bt => {
+    //   bt.addEventListener('click', ev => {
+    //     const template = bt.querySelector('template');
+    //     modalContent.innerHTML = "";
+    //     modalContent.appendChild(template.content.cloneNode(true));
+    //     modal.classList.add("open");
+    //   });;
+    // })
+
+  </script>
+</body>

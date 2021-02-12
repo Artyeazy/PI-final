@@ -1,6 +1,5 @@
 # PI-final
 ![Badge](https://img.shields.io/badge/Artyeazy-Story'n_Lines-blueviolet)
-![Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <!-- ![Badge](https://img.shields.io/github/followers/bigMARAC?label=follow&style=social) -->
 
 ## Instalação

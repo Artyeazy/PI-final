@@ -1,8 +1,8 @@
 
 # PI-final
-A website to facilitate the study of history and encourage learning
+
 ![Badge](https://img.shields.io/badge/Artyeazy-Story'n_Lines-blueviolet)
-<!-- ![Badge](https://img.shields.io/github/followers/bigMARAC?label=follow&style=social) -->
+<!-- ![Badge](https://img.shields.io/github/followers/bigMARAC?label=follow&style=social) --> A website to facilitate the study of history and encourage learning
 
 ## Instalação
 
